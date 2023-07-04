@@ -3,12 +3,9 @@
     beer.name
     beer.description
     beer.tagline -->
-<div class="beerCards">
+<div class="beerContainer">
     <% data.forEach(beer => { %>
-        <h2><%= beer.name %></h2>
-        <p><%= beer.tagline %></p>
-        <img src="<%= beer.image_url %>" alt="<%= beer.name %>">
-        <p><%= beer.description %></p>
+        <%- include("partials/beer.ejs", {beer}) %>
     <% }) %> 
 </div>
 

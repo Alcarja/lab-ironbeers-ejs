@@ -75,12 +75,21 @@ nav a {
 }
 
 /* Beer page */
-.beerCards {
+
+.beerContainer {
     display: flex;
-    flex-direction: row;
+    gap: 50px;
     flex-wrap: wrap;
+    margin: 60px 60px;
     justify-content: center;
-    align-items: center;
+}
+
+.singleBeer {
+    width: 400px;
+}
+
+.singleBeer img {
+    height: 190px;
 }
 
 /* Random Beer */
@@ -124,4 +133,5 @@ nav a {
     padding-left: 2rem;
     margin-bottom: 2rem;
 }
+
 
