@@ -85,11 +85,12 @@ nav a {
 }
 
 .singleBeer {
-    width: 400px;
+    width: 30%;
 }
 
 .singleBeer img {
     height: 190px;
+    margin-bottom: 40px;
 }
 
 /* Random Beer */
