@@ -5,3 +5,61 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav  {
+    flex-direction: column;
+    background-color: #2081c3;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav li {
+    padding: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f7f9f9;
+}
+
+/* INDEX */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img {
+    width: 300px;
+    height: auto;
+    margin: 30px;
+}
+
+.button {
+    background-color: #2081c3;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.button a {
+    text-decoration: none;
+    color: #f7f9f9;
+}
