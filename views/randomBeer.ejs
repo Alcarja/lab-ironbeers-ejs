@@ -1,5 +1,18 @@
-<h1><%= randomBeer.name  %></h1>
-<h2><%= randomBeer.tagline %></h2>
-<img src="<%= randomBeer.image_url %>" alt="<%= %>">
-<p><%= randomBeer.description %></p>
-<p><%= randomBeer.food_pairing %></p>
+<div class="randomBeerContainer">
+        <img class="img" src="<%= randomBeer.image_url %>" alt="<%= %>">
+    
+    <div class="text">
+        <h1><%= randomBeer.name  %></h1>
+        <h2 class="tagline" ><%= randomBeer.tagline %></h2>
+        <p class="description" ><%= randomBeer.description %></p>
+        <h3>Food Pairings</h3>
+        <ul class="food-pairing" >
+            <li><%= randomBeer.food_pairing[0] %></li>
+            <li><%= randomBeer.food_pairing[1] %></li>
+            <li><%= randomBeer.food_pairing[2] %></li>
+        </ul>
+        <p class="brewer-tips" ><strong>Brewers Tips: </strong><%= randomBeer.brewers_tips %></p>
+    </div>
+    
+</div>
+

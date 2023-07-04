@@ -11,6 +11,16 @@ font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -63,3 +73,55 @@ nav a {
     text-decoration: none;
     color: #f7f9f9;
 }
+
+/* Beer page */
+.beerCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Random Beer */
+.randomBeerContainer {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    margin: 50px auto;
+
+}
+
+.img {
+    width: 100px;
+    height: auto;
+}
+
+.text{
+    padding-left: 80px;
+    padding-right: 80px;
+
+} 
+
+.text h1 {
+    margin-bottom: 1rem;
+}
+
+.tagline {
+    color: #bfbfbf;
+    font-size: 1rem;
+    font-weight: 200;
+    padding-bottom: 1rem;
+}
+
+.description {
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.food-pairing {
+    list-style-position: inside;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+}
+
